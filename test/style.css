@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 10vh;
+}
+
+nav > div {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+nav h1 {
+  color: rgb(193, 134, 248);
+  font-size: 28pt;
+  margin: 0;
+}
+
+nav a {
+  margin: 16px;
+  text-decoration: none;
+  color: rgb(165, 127, 201);
+}
+
+nav a:hover {
+  color: rgb(157, 52, 255);
+}
+
+.filler {
+  flex-grow: 1;
+}
+
+#main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+#main > div {
+  width: 40%;
+  box-sizing: border-box;
+  padding: 48px 0;
+}
+
+#main img {
+  height: 100%;
+}
+
+#mainLeft {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#mainLeft ul {
+  list-style-type: "✓";
+  margin-bottom: 32px;
+}
+
+#mainLeft li {
+  margin: 16px 0;
+}
+
+#mainLeft h1 {
+  font-size: 36pt;
+  color: rgb(111, 51, 167);
+}
+
+#mainLeft > div {
+  width: 100%;
+}
+
+#footer {
+  height: 10vh;
+  background-color: rgba(231, 231, 231, 0.788);
+  display: flex;
+  box-sizing: border-box;
+}
+
+#footerContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  box-sizing: border-box;
+  font-size: 12pt;
+}
+
+#footerContainer img {
+  height: 100%;
+}
+
+.aButton {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(204, 204, 204);
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.aButton:hover {
+  background-color: rgb(172, 172, 172);
+}
+
+button {
+  height: 48px;
+  /* width: 128px; */
+  font-size: 14pt;
+  border-radius: 24px;
+  background-color: white;
+  border: 1px solid rgb(181, 117, 241);
+  box-sizing: border-box;
+  padding: 0 32px;
+  margin: 0 8px;
+  color: rgb(203, 153, 250);
+}
+
+button:hover {
+  background-color: rgb(191, 131, 247);
+  color: white;
+  cursor: pointer;
+}
+
+#button1 {
+  background-color: rgb(182, 123, 238);
+  color: white;
+}
+
+#button1:hover {
+  background-color: rgb(170, 82, 253);
+  border: 1px solid rgb(170, 82, 253);
+}
